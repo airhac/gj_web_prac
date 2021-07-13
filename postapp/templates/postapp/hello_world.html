@@ -5,9 +5,10 @@
         <h1>HTTP METHOD</h1>
         <form action="/posts/hello_world/" method="post">
             {% csrf_token %}
-            <input type="submit" class="btn btn-outline-primary rounded-pill px-5">
+            <input tyoe="text" name="input_text">
+            <input type="submit"; class="btn btn-outline-primary rounded-pill px-5">
         </form>
-    <h3>{{ text }}</h3>
+    <h3>{{ model_instance.text }}</h3>
     </div>
 
 {% endblock %}
